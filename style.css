@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f8f9;
+}
+
+.app-bar {
+    background-color: #FFFFFF; /* Set your desired background color */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom:20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: #fff; /* Set your desired text color */
+    text-decoration: none;
+}
+
+.logo img {
+    width: 40px; /* Set your desired logo width */
+    height: auto;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.vertical-line {
+    border-left: 2px solid #f7f8f9; /* Set the border color and style */
+    height: 30px; /* Set the height of the line */
+    margin-left: 0px; /* Adjust the margin for spacing */
+}
+
+.search-bar {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.search-bar img {
+    width: auto; /* Set your desired logo width */
+    height: 20px;
+    margin-right: 10px;
+}
+
+
+.search-bar input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+.main{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.main h2{
+    margin: 20px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    color: #646678;
+    text-decoration: none;
+    padding-right:40px;
+    font-weight: 600;
+}
+
+.user img {
+    width: 30px; 
+    height: auto;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.card {
+    max-width: 400px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+.user-initials {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.card-body {
+    padding-left:20px;
+}
+
+.card-title {
+    font-size: 18px;
+    margin-bottom: 5px;
+    padding-top:20px;
+    padding-left:20px;
+    color: #646678;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card-description {
+    color: #bdbdc5;
+    font-size: 16px;
+    padding-top:15px;
+    padding-bottom:15px;
+}
+
+.card-footer {
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom:20px;
+    font-size:14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
